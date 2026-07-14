@@ -1,8 +1,8 @@
 # Credit Card Fraud Detection & Risk Mitigation Engine
 
----
 
-### Project Overview
+
+## Project Overview
 
 This project tackles one of the most complex challenges in enterprise data analysis: detecting highly imbalanced, anomalous events (fraud) without blocking legitimate customer activity. Using a dataset of over 280,000 real-world credit card transactions, I developed a machine learning classification model to predict fraud probability and deployed the results into a high-level Business Intelligence dashboard for risk management teams.
 
@@ -10,7 +10,7 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-### Tools & Technologies Used
+## Tools & Technologies Used
 
 | Tools | Use |
 |--|--|
@@ -21,17 +21,17 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-### Key Business Insights
+## Key Business Insights
 
-• Actionable Risk Tiers: Translated raw AI probability scores (0.0 to 1.0) into plain-English risk categories (Critical Risk, High Risk, Low Risk), allowing security teams to immediately prioritize manual reviews versus automated blocking.
+- Actionable Risk Tiers: Translated raw AI probability scores (0.0 to 1.0) into plain-English risk categories (Critical Risk, High Risk, Low Risk), allowing security teams to immediately prioritize manual reviews versus automated blocking.
 
-• System Accuracy Validation: Visualized the model's performance by comparing actual fraud against AI predictions, proving the efficacy of the balanced machine learning approach.
+- System Accuracy Validation: Visualized the model's performance by comparing actual fraud against AI predictions, proving the efficacy of the balanced machine learning approach.
 
-• Anomaly Profiling: Mapped fraud risk levels against transaction sizes to identify behavioral correlations and systemic vulnerabilities.
+- Anomaly Profiling: Mapped fraud risk levels against transaction sizes to identify behavioral correlations and systemic vulnerabilities.
 
 ---
 
-### Repository Contents
+## Repository Contents
 | Contents | Description |
 |---|---|
 | **ccfraudproject.py** | The Python script detailing the data normalization, train/test splitting, and Logistic Regression model training |
