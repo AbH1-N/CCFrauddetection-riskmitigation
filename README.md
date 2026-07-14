@@ -41,6 +41,6 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-| Dasboard |
+| Dashboard |
 |---|
 | <img width="1326" height="743" alt="Screenshot 2026-02-25 160152" src="https://github.com/user-attachments/assets/3985da41-9aea-412b-8161-8fa550151b3d" /> |
