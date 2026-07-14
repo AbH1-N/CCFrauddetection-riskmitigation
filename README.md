@@ -12,13 +12,12 @@ All original data features were transformed using Principal Component Analysis (
 
 ### Tools & Technologies Used:
 
-• Python (Pandas, Scikit-Learn): Extracted, cleaned, and normalized data using StandardScaler.
-
-• Machine Learning: Trained a Logistic Regression classification model. Implemented the class_weight='balanced' parameter to successfully penalize the algorithm for missing rare fraud cases within a highly imbalanced dataset (only 0.17% actual fraud).
-
-• DAX: Engineered logical risk-tier categories based on the model's exact probability outputs.
-
-• Power BI: Designed an executive-level Risk & Compliance Command Center to visualize systemic threats.
+| Tools | Use |
+|--|--|
+| **Python (Pandas, Scikit-Learn)** | Extracted, cleaned, and normalized data using StandardScaler |
+| **Machine Learning** | Trained a Logistic Regression classification model. Implemented the class_weight='balanced' parameter to successfully penalize the algorithm for missing rare fraud cases within a highly imbalanced dataset (only 0.17% actual fraud) |
+| **DAX** | Engineered logical risk-tier categories based on the model's exact probability outputs |
+| **Power BI** | Designed an executive-level Risk & Compliance Command Center to visualize systemic threats |
 
 ---
 
