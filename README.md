@@ -2,7 +2,7 @@
 
 ---
 
-### Project Overview:
+### Project Overview
 
 This project tackles one of the most complex challenges in enterprise data analysis: detecting highly imbalanced, anomalous events (fraud) without blocking legitimate customer activity. Using a dataset of over 280,000 real-world credit card transactions, I developed a machine learning classification model to predict fraud probability and deployed the results into a high-level Business Intelligence dashboard for risk management teams.
 
@@ -10,7 +10,7 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-### Tools & Technologies Used:
+### Tools & Technologies Used
 
 | Tools | Use |
 |--|--|
@@ -21,7 +21,7 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-### Key Business Insights:
+### Key Business Insights
 
 • Actionable Risk Tiers: Translated raw AI probability scores (0.0 to 1.0) into plain-English risk categories (Critical Risk, High Risk, Low Risk), allowing security teams to immediately prioritize manual reviews versus automated blocking.
 
@@ -31,12 +31,16 @@ All original data features were transformed using Principal Component Analysis (
 
 ---
 
-### Repository Contents:
+### Repository Contents
+| Contents | Description |
+|---|---|
+| **ccfraudproject.py** | The Python script detailing the data normalization, train/test splitting, and Logistic Regression model training |
+| **fraud_preds4bi.zip** | The exported dataset containing the unseen test features and the model's calculated risk probability scores |
+| **Fraudprediction.pbix** | The original Power BI dashboard file |
+| **Dashboard** | A high-resolution export of the final interactive dashboard | 
 
-• ccfraudproject.py: The Python script detailing the data normalization, train/test splitting, and Logistic Regression model training.
+---
 
-• fraud_preds4bi.zip: The exported dataset containing the unseen test features and the model's calculated risk probability scores.
-
-• Fraudprediction.pbix: The original Power BI dashboard file.
-
-• Screenshot 2026-02-25 160152.pngf: A high-resolution export of the final interactive dashboard. <img width="1326" height="743" alt="Screenshot 2026-02-25 160152" src="https://github.com/user-attachments/assets/3985da41-9aea-412b-8161-8fa550151b3d" />
+| Dasboard |
+|---|
+| <img width="1326" height="743" alt="Screenshot 2026-02-25 160152" src="https://github.com/user-attachments/assets/3985da41-9aea-412b-8161-8fa550151b3d" /> |
